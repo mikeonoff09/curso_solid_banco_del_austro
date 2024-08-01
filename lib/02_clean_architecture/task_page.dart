@@ -7,6 +7,7 @@ import 'domain/entities/task.dart';
 import 'presentation/bloc/task_bloc.dart';
 import 'presentation/bloc/task_event.dart';
 import 'presentation/widgets/task_view.dart';
+
 class TaskPage extends StatelessWidget {
   const TaskPage({super.key});
 
