@@ -34,6 +34,9 @@ class CounterPage extends StatelessWidget {
             const SnackBar(content: Text('Counter reached 5!')),
           );
         }
+        if (state.counter == 10){
+          Navigator.pushNamed(context, 'ruta');
+        }
       },
       child: Scaffold(
         appBar: AppBar(title: const Text('Counter')),
